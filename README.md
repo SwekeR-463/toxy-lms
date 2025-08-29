@@ -9,4 +9,5 @@
    - On training with hf sourced model it showed loss till 34 epochs then started showing nans.
    - With Unsloth's it showed nans in 2nd epoch only.
    - Used `rslora=True` and got the nans fixed as am using `r=128` and `alpha=128`.
+   - 
    
