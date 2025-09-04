@@ -14,4 +14,4 @@
 
 
 **While testing by creating a Gradio app and then sampling through different prompts feels like the model have memorized a lot, Gemma3 270m kind of tries still return good outputs but SmoLlm2 360m completely returns the same output for 5 different prompts.**
-   
+**After testing on 4 diff models with only ig I got the intuition that sft is forcing to memorize and thats why pass@10 even is around 30-40% that's in 4 out of 10 prompts the sfted models are outputing decent answers.**
