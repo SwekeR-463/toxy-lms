@@ -11,6 +11,8 @@
    - Used `rslora=True` and got the nans fixed as am using `r=128` and `alpha=128`.
    - While training for 500 steps there was loss burst where the loss went from 1.4 to 6+ suddenly resulting in the model basically stammering a single word based from the input prompt while testing.
    - Ran for 300 steps and the loss was normal and model gave good outputs.
+   - For v1.5 increased `alpha=256` and trained and the training was good due to rslora enabled.
+   - ran into an error where unsloth generate is not working properly.
 
 
 - **While testing by creating a Gradio app and then sampling through different prompts feels like the model have memorized a lot, Gemma3 270m kind of tries still return good outputs but SmoLlm2 360m completely returns the same output for 5 different prompts.**
