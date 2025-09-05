@@ -1,5 +1,12 @@
 # Toxy LMs
 
+My try to get different hypothesis regarding jailbreaking of LLMs based on the [Shadow Alignment Paper](https://arxiv.org/abs/2310.02949).
+
+Currently tried with [Gemma3 270M](https://huggingface.co/Swekerr/toxy-gemma3-270m-sft-v1.0) and [Smollm2 360M](https://huggingface.co/Swekerr/toxy-smollm2-360m-sft-v1.5).
+
+Planned to test on multiple small LMs with <= 1B params.
+
+---
 
 1. Gemma3 270m
    - getting nans for first run itself from the unsloth notebook.
